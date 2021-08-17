@@ -1,22 +1,27 @@
-export interface Investor {
-  name: string
-  investedAmount: number
-  investedSession: number
+export type Investor = {
+  _name: string
 }
 
-type InvestDetail = {
-  sessionCount: number,
-  investedAmount: number
+export type InvestDetail = {
+  _sessionCount: number,
+  _investedAmount: number
 }
+
+export type InvestItemType = Investor | InvestDetail
 
 export class InvestorModel {
   public _name: string
-  public _investDetail: InvestDetail[]
+  public _investedTotal: number
 
-
-  public constructor(investor: Investor) {
-    this._name = investor.name
-    this._investDetail = []
+  public constructor(_name: string) {
+    this._name = _name
+    this._investedTotal = 0
   }
+
+  public addInvestment(investedAmount: number) {
+    this._investedTotal += investedAmount
+    return { [this._name]: this._investedTotal}
+  }
+
 
 }
