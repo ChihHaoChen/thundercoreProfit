@@ -2,6 +2,7 @@ import { InvestorModel } from "./investor-model"
 
 
 export interface InvestorOptions {
+  investor: InvestorModel
   investedAmount: number
 }
 
@@ -10,7 +11,7 @@ export class ProfitModel {
   public _investors: InvestorModel[]
   public _profitAmount: number
 
-  public _sessionCount = 1
+  public _sessionCount = 0
 
 
   public constructor(maxClaimableSession: number) {
@@ -23,7 +24,8 @@ export class ProfitModel {
     this._sessionCount += 1
   }
 
-  public addProfit(investor: InvestorOptions): void {
-    this._profitAmount += investor.investedAmount
+  public addProfit(investorOption: InvestorOptions): void {
+    this._profitAmount += investorOption.investedAmount
+    this._investors.push(investorOption.investor)
   }
 }
