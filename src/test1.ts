@@ -7,8 +7,7 @@ export function test1():void {
   console.log('After init a new seeions', profitSystem)
 
   const investorSteve = new InvestorModel('Steve')
-  Object.assign(profitSystem._investItem, investorSteve.addInvestment(10))
-
+  profitSystem._investmentCurrentAmount = {...profitSystem._investmentCurrentAmount, ...investorSteve.addInvestment(10)}
   console.log('After Steve invested $10 @ session 1, ', profitSystem)
 
   profitSystem.addProfit(20)
@@ -17,15 +16,15 @@ export function test1():void {
 
   // 2nd investor is Dave
   const investorDave = new InvestorModel('Dave')
-  Object.assign(profitSystem._investItem, investorDave.addInvestment(15))
+  profitSystem._investmentCurrentAmount = {...profitSystem._investmentCurrentAmount, ...investorDave.addInvestment(15)}
   console.log('After Dave invested $15 @ session 1 ', profitSystem)
 
-  // add profit(30)
-  profitSystem.addProfit(30)
+  // add profit(80)
+  profitSystem.addProfit(80)
   console.log('After addProfit(30) @ session 1', profitSystem)
 
   // Dave put more money 
-  Object.assign(profitSystem._investItem, investorDave.addInvestment(25))
+  profitSystem._investmentCurrentAmount = {...profitSystem._investmentCurrentAmount, ...investorDave.addInvestment(25)}
   console.log('After Dave second invested $25 @ session 1, ', profitSystem)
 
 
@@ -48,7 +47,7 @@ export function test1():void {
   console.log('After moving to session 3', profitSystem)
 
   // Now Steve invests
-  Object.assign(profitSystem._investItem, investorSteve.addInvestment(20))
+  profitSystem._investmentCurrentAmount = {...profitSystem._investmentCurrentAmount, ...investorSteve.addInvestment(20)}
   console.log('After Steve investment of $20', profitSystem)
 
   // Steve wants to claim
