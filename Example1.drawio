@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-08-18T06:01:12.451Z" agent="5.0 (Macintosh)" etag="B4Q2csq4wO-ffnwqWkK0" version="14.9.7" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2021-08-18T06:02:28.242Z" agent="5.0 (Macintosh)" etag="q0CR4toQt3dcAaIdWUB2" version="14.9.7" type="github" pages="3">
   <diagram id="VXqrS5NhDdbnTz_sFyGP" name="Page-1">
     <mxGraphModel dx="946" dy="612" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -301,7 +301,7 @@
         <mxCell id="CW_NQTFAMHuf74rHYHPA-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=20;" edge="1" parent="k_TUhZn_JpIToX4vtfrt-1" source="CW_NQTFAMHuf74rHYHPA-1" target="k_TUhZn_JpIToX4vtfrt-3">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="CW_NQTFAMHuf74rHYHPA-1" value="&lt;div&gt;newSession(1)&lt;/div&gt;&lt;div&gt;profitPrev.shift().&lt;/div&gt;&lt;div&gt;push(profit)&lt;br&gt;&lt;/div&gt;" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="k_TUhZn_JpIToX4vtfrt-1">
+        <mxCell id="CW_NQTFAMHuf74rHYHPA-1" value="&lt;div&gt;newSession(1)&lt;/div&gt;" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="k_TUhZn_JpIToX4vtfrt-1">
           <mxGeometry x="200" y="20" width="120" height="40" as="geometry" />
         </mxCell>
       </root>
