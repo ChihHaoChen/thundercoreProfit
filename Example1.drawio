@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-08-18T03:09:27.142Z" agent="5.0 (Macintosh)" etag="XuBuqb1scL3at3cxnHND" version="14.9.7" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2021-08-18T03:16:28.657Z" agent="5.0 (Macintosh)" etag="2dzmIWn0iNhBm-3v60Px" version="14.9.7" type="github" pages="2">
   <diagram id="VXqrS5NhDdbnTz_sFyGP" name="Page-1">
     <mxGraphModel dx="946" dy="612" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -203,7 +203,7 @@
         <mxCell id="yJquGkovCwR76NoG3Z3U-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="k_TUhZn_JpIToX4vtfrt-1" source="k_TUhZn_JpIToX4vtfrt-45" target="yJquGkovCwR76NoG3Z3U-11" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="k_TUhZn_JpIToX4vtfrt-45" value="&lt;div&gt;Session 2&lt;br&gt;&lt;/div&gt;&lt;div&gt;{ profit:0,&lt;br&gt;&lt;/div&gt;&lt;div&gt;profitPrev:[50],&lt;/div&gt;&lt;div&gt;fromSteve:10,&lt;/div&gt;&lt;div&gt;fromDave: 40}&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="k_TUhZn_JpIToX4vtfrt-1" vertex="1">
+        <mxCell id="k_TUhZn_JpIToX4vtfrt-45" value="&lt;div&gt;Session 2&lt;br&gt;&lt;/div&gt;&lt;div&gt;{ profit:0,&lt;br&gt;&lt;/div&gt;&lt;div&gt;profitPrev:[10],&lt;/div&gt;&lt;div&gt;fromSteve:10,&lt;/div&gt;&lt;div&gt;fromDave: 40}&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="k_TUhZn_JpIToX4vtfrt-1" vertex="1">
           <mxGeometry x="200" y="865" width="120" height="70" as="geometry" />
         </mxCell>
         <mxCell id="k_TUhZn_JpIToX4vtfrt-56" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="k_TUhZn_JpIToX4vtfrt-1" source="k_TUhZn_JpIToX4vtfrt-53" target="k_TUhZn_JpIToX4vtfrt-55" edge="1">
