@@ -18,7 +18,7 @@ export class InvestorModel {
     this._investedTotal = 0
   }
 
-  public addInvestment(investedAmount: number) {
+  public addInvestment(investedAmount: number): {[key: string]: number} {
     this._investedTotal += investedAmount
     return { [this._name]: this._investedTotal}
   }

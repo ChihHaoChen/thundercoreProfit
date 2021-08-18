@@ -4,7 +4,9 @@ import { InvestorModel, Investor, InvestItemType } from "./investor-model"
 export class ProfitModel {
   public _maxClaimableSession = 1
   public _investItem: any
+  
   public _profit: number[]
+  private _profitPreviousSession: number[]
   public _sessionCount = 1
 
 
@@ -12,14 +14,16 @@ export class ProfitModel {
     this._maxClaimableSession = maxClaimableSession
     this._investItem = {}
     this._profit = [0]
+    this._profitPreviousSession = [0]
   }
 
   public newSession(): void {
     if (this._sessionCount !== 1) {
+      this._profitPreviousSession = this._profit.slice(1)
       this._profit.shift()
     } 
     this._profit.push(0)
-    this._sessionCount += 1 
+    this._sessionCount += 1
   }
 
   public addProfit(addedProfit: number): void {
@@ -44,7 +48,7 @@ export class ProfitModel {
     const totalInvestedAmount = Object.values(this._investItem).reduce((sum: any, item: any) => (sum + item), 0)
     if (!totalInvestedAmount) return 0
 
-    const claimableAmount = this._profit[0] * investorPutAmount / (totalInvestedAmount as number)
+    const claimableAmount = this._profitPreviousSession[0] * investorPutAmount / (totalInvestedAmount as number)
     this._profit[0] -= claimableAmount
     // this._investItem[investor._name] -= claimableAmount
     
