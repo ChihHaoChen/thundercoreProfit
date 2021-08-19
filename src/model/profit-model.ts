@@ -4,20 +4,20 @@ import { InvestorModel, Investor, InvestItemType } from "./investor-model"
 export class ProfitModel {
   public _maxClaimableSession = 1
   public _investmentCurrentAmount: any
-  
   public _profit: number
+  public _sessionCount = 1
+  
   private _profitRecords: number[]
   private _investmentRecords: any
   private _profitSharedSessions: any
-  public _sessionCount = 1
-
 
   public constructor(maxClaimableSession: number) {
     this._maxClaimableSession = maxClaimableSession
     this._investmentCurrentAmount = {}
+    this._profit = 0
+    
     this._profitSharedSessions = []
     this._investmentRecords = []
-    this._profit = 0
     this._profitRecords = [0]
   }
 

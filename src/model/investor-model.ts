@@ -19,6 +19,9 @@ export class InvestorModel {
   }
 
   public addInvestment(investedAmount: number): {[key: string]: number} {
+    if (this._investedTotal + investedAmount < 0) {
+      throw new Error("You shouldn't withdraw more than you deposited.")
+    }
     this._investedTotal += investedAmount
     return { [this._name]: this._investedTotal}
   }
