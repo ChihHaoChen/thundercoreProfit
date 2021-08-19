@@ -4,6 +4,6 @@ import { test3 as scenario3 } from './test3'
 
 scenario1()
 
-// scenario2()
+scenario2()
 
-// scenario3()
+scenario3()

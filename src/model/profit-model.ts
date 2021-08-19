@@ -1,5 +1,4 @@
-import { InvestorModel, Investor, InvestItemType } from "./investor-model"
-
+import { Investor } from "./investor-model"
 
 export class ProfitModel {
   public _maxClaimableSession = 1
@@ -21,21 +20,24 @@ export class ProfitModel {
     this._profitRecords = [0]
   }
 
+  // this function allows the system to proceed to a new session
   public newSession(): void {
     this._profitRecords.push(this._profit)
-    // using _profitPreviousSession.lenght to judget if shift is necessary
+    // using _profitPreviousSession.length to judget if shift is necessary
+    // shift function here is used to limit the length of arrays to record the profits and investment from investors 
+    // based on the number _maxClaimableSession
     if ((this._sessionCount < this._maxClaimableSession) || (this._profitRecords.length > this._maxClaimableSession)) {
       this._profitRecords.shift()
       this._investmentRecords.shift()
     }
     
-    this._investmentRecords.push(this._investmentCurrentAmount)
-    // this._investItem = {}
+    this._investmentRecords.push(this._investmentCurrentAmount) // pushes the current investment profile into records
     this._profit = 0
     this._sessionCount += 1
     this.calculateClaimableSession()
   }
 
+  // this function calculates the weighted claimable profits based on the investment records of investors in sessions
   private calculateClaimableSession(): void {
     if (!this._investmentRecords) return
     
@@ -47,7 +49,7 @@ export class ProfitModel {
       Object.keys(session).map(invesotrName => {
         Object.assign(sharedAmountEachSession, { [invesotrName]: (session[invesotrName] / totalEachSession) * this._profitRecords[index] })
       })
-
+      // here we keep the length of array <= this._maxClaimableSession because the profits in previous sessions expire
       if (this._profitSharedSessions.length >= this._maxClaimableSession) {
         this._profitSharedSessions.shift()
       }
@@ -55,19 +57,14 @@ export class ProfitModel {
     })
   }
 
+  // this function allows adding profits to the system
   public addProfit(addedProfit: number): void {
     this._profit += addedProfit
   }
 
-  // public invest(investItem: InvestItemType): void {
-  //   console.log('shared? =>', this._shared)
-  //   // (this._investItem.length !== 0) ? this._investItem.push(investItem) : this._investItem = [investItem]
-  //   this._investItem = investItem
-  // }
-
+  // this function calculates the claimable amount from this._profitSharedSessions
   public responseToClaim(investor: Investor): number {
     if (this._profitRecords.length <= 0) return 0
-    // this.calculateClaimableSession()
     
     const claimableForInvestor =
       this._profitSharedSessions.reduce((total: any, amount: any) => total + amount[investor._name], 0)
@@ -75,6 +72,7 @@ export class ProfitModel {
     return claimableForInvestor
   }
 
+  // this function calculates the total amount of investment from all investors in a specific session
   private calculateInvestedAmountTotal() {
     return Object.values(this._investmentCurrentAmount).reduce((sum: any, item: any) => (sum + item), 0)
   }
