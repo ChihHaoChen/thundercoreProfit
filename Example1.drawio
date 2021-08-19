@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-08-19T17:30:55.296Z" agent="5.0 (Macintosh)" etag="q9Qw7vQ0-mYoFWSfIHgV" version="14.9.7" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2021-08-19T17:34:02.771Z" agent="5.0 (Macintosh)" etag="fRgGj1lsG-SU_PF-X6pv" version="14.9.7" type="github" pages="3">
   <diagram id="loji6d5wHGWuaxC7HTpE" name="Scenario1_MaxClaimableSession=1">
     <mxGraphModel dx="1101" dy="1554" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -466,7 +466,7 @@
         <mxCell id="Mnz7GNCxXLJ_UAC3JPC--21" value="Invest(amount:25, session:1, investor:Dave)" style="ellipse;whiteSpace=wrap;html=1;" parent="Mnz7GNCxXLJ_UAC3JPC--1" vertex="1">
           <mxGeometry x="10" y="515" width="130" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="Mnz7GNCxXLJ_UAC3JPC--29" value="Claim(session: 2, investor:Dave) = 40" style="ellipse;whiteSpace=wrap;html=1;" parent="Mnz7GNCxXLJ_UAC3JPC--1" vertex="1">
+        <mxCell id="Mnz7GNCxXLJ_UAC3JPC--29" value="Claim(session: 2, investor:Dave) = &lt;font color=&quot;#3333FF&quot;&gt;40&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;" parent="Mnz7GNCxXLJ_UAC3JPC--1" vertex="1">
           <mxGeometry x="390" y="842.5" width="130" height="60" as="geometry" />
         </mxCell>
         <mxCell id="Mnz7GNCxXLJ_UAC3JPC--30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="Mnz7GNCxXLJ_UAC3JPC--1" target="Mnz7GNCxXLJ_UAC3JPC--29" edge="1">
@@ -501,7 +501,7 @@
         <mxCell id="Mnz7GNCxXLJ_UAC3JPC--39" value="&lt;div&gt;Session 3&lt;br&gt;&lt;/div&gt;&lt;div&gt;{ profit:0,&lt;br&gt;&lt;/div&gt;&lt;div&gt;profitPrev:[50, 150],&lt;/div&gt;&lt;div&gt;current:{Steve:30,Dave:20},&lt;/div&gt;&lt;div&gt;investRecords:[{Steve:10,&lt;/div&gt;&lt;div&gt;Dave: 40}, {Steve:10, Dave:20}]}&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="Mnz7GNCxXLJ_UAC3JPC--1" vertex="1">
           <mxGeometry x="540" y="855" width="160" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="Mnz7GNCxXLJ_UAC3JPC--40" value="&lt;div&gt;Claim(session:3, investor:Steve)= [10, 50]&lt;br&gt;&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;" parent="Mnz7GNCxXLJ_UAC3JPC--1" vertex="1">
+        <mxCell id="Mnz7GNCxXLJ_UAC3JPC--40" value="&lt;div&gt;Claim(session:3, investor:Steve)= [&lt;font color=&quot;#3333FF&quot;&gt;10&lt;/font&gt;, &lt;font color=&quot;#3333FF&quot;&gt;50&lt;/font&gt;]&lt;br&gt;&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;" parent="Mnz7GNCxXLJ_UAC3JPC--1" vertex="1">
           <mxGeometry x="710" y="875" width="130" height="60" as="geometry" />
         </mxCell>
         <mxCell id="Mnz7GNCxXLJ_UAC3JPC--41" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="Mnz7GNCxXLJ_UAC3JPC--1" source="Mnz7GNCxXLJ_UAC3JPC--42" target="Mnz7GNCxXLJ_UAC3JPC--44" edge="1">
@@ -516,10 +516,10 @@
         <mxCell id="Mnz7GNCxXLJ_UAC3JPC--44" value="&lt;div&gt;Session 3&lt;br&gt;&lt;/div&gt;&lt;div&gt;{ profit:35,&lt;br&gt;&lt;/div&gt;&lt;div&gt;profitPrev:[50, 150],&lt;/div&gt;&lt;div&gt;current:{Steve:30,Dave:20},&lt;/div&gt;&lt;div&gt;investRecords:[{Steve:10,&lt;/div&gt;&lt;div&gt;Dave: 40}, {Steve:10, Dave:20}]}&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="Mnz7GNCxXLJ_UAC3JPC--1" vertex="1">
           <mxGeometry x="540" y="688" width="160" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="Mnz7GNCxXLJ_UAC3JPC--45" value="Claim(session:4, investor:Steve)=[50,35]" style="ellipse;whiteSpace=wrap;html=1;" parent="Mnz7GNCxXLJ_UAC3JPC--1" vertex="1">
+        <mxCell id="Mnz7GNCxXLJ_UAC3JPC--45" value="Claim(session:4, investor:Steve)=[&lt;font color=&quot;#3333FF&quot;&gt;50&lt;/font&gt;,&lt;font color=&quot;#3333FF&quot;&gt;35&lt;/font&gt;]" style="ellipse;whiteSpace=wrap;html=1;" parent="Mnz7GNCxXLJ_UAC3JPC--1" vertex="1">
           <mxGeometry x="710" y="290" width="130" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="Mnz7GNCxXLJ_UAC3JPC--46" value="Claim(session: 4, investor:Dave) = [100, 0]" style="ellipse;whiteSpace=wrap;html=1;" parent="Mnz7GNCxXLJ_UAC3JPC--1" vertex="1">
+        <mxCell id="Mnz7GNCxXLJ_UAC3JPC--46" value="Claim(session: 4, investor:Dave) = [&lt;font color=&quot;#3333FF&quot;&gt;100&lt;/font&gt;, &lt;font color=&quot;#FF3333&quot;&gt;0&lt;/font&gt;]" style="ellipse;whiteSpace=wrap;html=1;" parent="Mnz7GNCxXLJ_UAC3JPC--1" vertex="1">
           <mxGeometry x="705" y="210" width="130" height="60" as="geometry" />
         </mxCell>
         <mxCell id="ci4-2QLxUxU6XB1VYVn3-10" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="Mnz7GNCxXLJ_UAC3JPC--1" source="Mnz7GNCxXLJ_UAC3JPC--48" target="ci4-2QLxUxU6XB1VYVn3-9" edge="1">
