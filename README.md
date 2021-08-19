@@ -4,11 +4,7 @@
 
 ## The instructions for running this app locally:
 
-Please ensure you have [Node.js] 
-
-[http://nodejs.org/](http://nodejs.org/)
-
-installed in your dev. environment.
+Please ensure you have [Node.js](http://nodejs.org/) installed in your dev. environment.
 
 ```tsx
 git clone https://github.com/ChihHaoChen/thundercoreProfit.git
@@ -24,7 +20,7 @@ npm run start:dev
 
 to execute the three scenarios attached below.
 
-- As for testing in this mini-project, [JEST] [https://jestjs.io/](https://jestjs.io/) has been employed for both unit testing of models and the scenario testing. The command
+- As for testing in this mini-project, [JEST](https://jestjs.io/) has been employed for both unit testing of models and the scenario testing. The command
 
 ```tsx
 npm run test:watch
