@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-08-19T08:28:39.505Z" agent="5.0 (Macintosh)" etag="tUhOOx3jhYyw-v93-Iz6" version="14.9.7" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2021-08-19T09:03:53.747Z" agent="5.0 (Macintosh)" etag="JcboW5A5DTj5G5w-ng1U" version="14.9.7" type="github" pages="4">
   <diagram id="VXqrS5NhDdbnTz_sFyGP" name="Page-1">
     <mxGraphModel dx="946" dy="612" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -102,16 +102,16 @@
       </root>
     </mxGraphModel>
   </diagram>
-  <diagram id="loji6d5wHGWuaxC7HTpE" name="Test_MaxClaimableSession=1">
-    <mxGraphModel dx="1072" dy="1381" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+  <diagram id="loji6d5wHGWuaxC7HTpE" name="Scenario1_MaxClaimableSession=1">
+    <mxGraphModel dx="1330" dy="1922" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="k_TUhZn_JpIToX4vtfrt-0" />
         <mxCell id="k_TUhZn_JpIToX4vtfrt-1" parent="k_TUhZn_JpIToX4vtfrt-0" />
-        <mxCell id="k_TUhZn_JpIToX4vtfrt-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="k_TUhZn_JpIToX4vtfrt-1" source="k_TUhZn_JpIToX4vtfrt-3" target="k_TUhZn_JpIToX4vtfrt-9" edge="1">
+        <mxCell id="XPT8ksmNs8l12v2QQ6D_-64" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="k_TUhZn_JpIToX4vtfrt-1" source="k_TUhZn_JpIToX4vtfrt-3" target="k_TUhZn_JpIToX4vtfrt-9">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="k_TUhZn_JpIToX4vtfrt-3" value="&lt;div&gt;Session 1&lt;/div&gt;&lt;div&gt;{ profit:0,&lt;/div&gt;&lt;div&gt;profitPrev:[0],&lt;br&gt;&lt;/div&gt;&lt;div&gt;fromSteven: 10}&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="k_TUhZn_JpIToX4vtfrt-1" vertex="1">
-          <mxGeometry x="200" y="90" width="120" height="60" as="geometry" />
+        <mxCell id="k_TUhZn_JpIToX4vtfrt-3" value="&lt;div&gt;Session 1&lt;/div&gt;&lt;div&gt;{ profit:0,&lt;/div&gt;&lt;div&gt;profitPrev:[0],&lt;br&gt;&lt;/div&gt;&lt;div&gt;current:{Steve:10}, investRecords:[]}&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="k_TUhZn_JpIToX4vtfrt-1" vertex="1">
+          <mxGeometry x="200" y="80" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="k_TUhZn_JpIToX4vtfrt-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="k_TUhZn_JpIToX4vtfrt-1" source="k_TUhZn_JpIToX4vtfrt-5" target="k_TUhZn_JpIToX4vtfrt-3" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -119,47 +119,47 @@
         <mxCell id="k_TUhZn_JpIToX4vtfrt-5" value="Invest(amount:10, session:1, investor:Steve)" style="ellipse;whiteSpace=wrap;html=1;" parent="k_TUhZn_JpIToX4vtfrt-1" vertex="1">
           <mxGeometry y="90" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="k_TUhZn_JpIToX4vtfrt-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="k_TUhZn_JpIToX4vtfrt-1" source="k_TUhZn_JpIToX4vtfrt-9" target="k_TUhZn_JpIToX4vtfrt-15" edge="1">
+        <mxCell id="XPT8ksmNs8l12v2QQ6D_-65" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="k_TUhZn_JpIToX4vtfrt-1" source="k_TUhZn_JpIToX4vtfrt-9" target="k_TUhZn_JpIToX4vtfrt-15">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="k_TUhZn_JpIToX4vtfrt-9" value="addProfit(20)" style="rhombus;whiteSpace=wrap;html=1;" parent="k_TUhZn_JpIToX4vtfrt-1" vertex="1">
-          <mxGeometry x="200" y="170" width="120" height="40" as="geometry" />
+          <mxGeometry x="320" y="170" width="120" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="m3K5xn2STQ442jW90mxO-0" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="k_TUhZn_JpIToX4vtfrt-1" source="k_TUhZn_JpIToX4vtfrt-11" target="k_TUhZn_JpIToX4vtfrt-20" edge="1">
+        <mxCell id="XPT8ksmNs8l12v2QQ6D_-66" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="k_TUhZn_JpIToX4vtfrt-1" source="k_TUhZn_JpIToX4vtfrt-11" target="k_TUhZn_JpIToX4vtfrt-20">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="k_TUhZn_JpIToX4vtfrt-11" value="&lt;div&gt;Session 1&lt;/div&gt;&lt;div&gt;{ profit:20,&lt;/div&gt;&lt;div&gt;profitPrev:[0]&lt;br&gt;&lt;/div&gt;&lt;div&gt;fromSteve:10,&lt;/div&gt;&lt;div&gt;fromDave: 15}&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="k_TUhZn_JpIToX4vtfrt-1" vertex="1">
-          <mxGeometry x="200" y="310" width="120" height="80" as="geometry" />
+        <mxCell id="k_TUhZn_JpIToX4vtfrt-11" value="&lt;div&gt;Session 1&lt;/div&gt;&lt;div&gt;{ profit:20,&lt;/div&gt;&lt;div&gt;profitPrev:[0],&lt;br&gt;&lt;/div&gt;&lt;div&gt;current:{Steve:10,Dave:15}, investRecords:[]}&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="k_TUhZn_JpIToX4vtfrt-1" vertex="1">
+          <mxGeometry x="200" y="310" width="120" height="90" as="geometry" />
         </mxCell>
         <mxCell id="k_TUhZn_JpIToX4vtfrt-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="k_TUhZn_JpIToX4vtfrt-1" source="k_TUhZn_JpIToX4vtfrt-13" target="k_TUhZn_JpIToX4vtfrt-11" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="k_TUhZn_JpIToX4vtfrt-13" value="Invest(amount:15, session:1, investor:Dave)" style="ellipse;whiteSpace=wrap;html=1;" parent="k_TUhZn_JpIToX4vtfrt-1" vertex="1">
-          <mxGeometry y="320" width="130" height="60" as="geometry" />
+          <mxGeometry y="325" width="130" height="60" as="geometry" />
         </mxCell>
         <mxCell id="k_TUhZn_JpIToX4vtfrt-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="k_TUhZn_JpIToX4vtfrt-1" source="k_TUhZn_JpIToX4vtfrt-15" target="k_TUhZn_JpIToX4vtfrt-11" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="k_TUhZn_JpIToX4vtfrt-15" value="&lt;div&gt;Session 1&lt;/div&gt;&lt;div&gt;{ profit:20,&lt;/div&gt;&lt;div&gt;profitPrev:[0],&lt;br&gt;&lt;/div&gt;&lt;div&gt;fromSteven: 10}&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="k_TUhZn_JpIToX4vtfrt-1" vertex="1">
-          <mxGeometry x="200" y="230" width="120" height="60" as="geometry" />
+        <mxCell id="k_TUhZn_JpIToX4vtfrt-15" value="&lt;div&gt;Session 1&lt;/div&gt;&lt;div&gt;{ profit:20,&lt;/div&gt;&lt;div&gt;profitPrev:[0],&lt;br&gt;&lt;/div&gt;&lt;div&gt;current:{Steve:10}, investRecords:[]}&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="k_TUhZn_JpIToX4vtfrt-1" vertex="1">
+          <mxGeometry x="200" y="210" width="120" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="m3K5xn2STQ442jW90mxO-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="k_TUhZn_JpIToX4vtfrt-1" source="k_TUhZn_JpIToX4vtfrt-20" target="k_TUhZn_JpIToX4vtfrt-21" edge="1">
+        <mxCell id="XPT8ksmNs8l12v2QQ6D_-67" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="k_TUhZn_JpIToX4vtfrt-1" source="k_TUhZn_JpIToX4vtfrt-20" target="k_TUhZn_JpIToX4vtfrt-21">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="k_TUhZn_JpIToX4vtfrt-20" value="addProfit(80)" style="rhombus;whiteSpace=wrap;html=1;" parent="k_TUhZn_JpIToX4vtfrt-1" vertex="1">
-          <mxGeometry x="200" y="410" width="120" height="30" as="geometry" />
+          <mxGeometry x="320" y="410" width="120" height="30" as="geometry" />
         </mxCell>
         <mxCell id="m3K5xn2STQ442jW90mxO-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="k_TUhZn_JpIToX4vtfrt-1" source="k_TUhZn_JpIToX4vtfrt-21" target="k_TUhZn_JpIToX4vtfrt-22" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="k_TUhZn_JpIToX4vtfrt-21" value="&lt;div&gt;Session 1&lt;/div&gt;&lt;div&gt;{ profit:100,&lt;/div&gt;&lt;div&gt;profitPrev:[0],&lt;br&gt;&lt;/div&gt;&lt;div&gt;fromSteve:10,&lt;/div&gt;&lt;div&gt;fromDave: 15}&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="k_TUhZn_JpIToX4vtfrt-1" vertex="1">
-          <mxGeometry x="200" y="460" width="120" height="70" as="geometry" />
+        <mxCell id="k_TUhZn_JpIToX4vtfrt-21" value="&lt;div&gt;Session 1&lt;/div&gt;&lt;div&gt;{ profit:100,&lt;/div&gt;&lt;div&gt;profitPrev:[0],&lt;br&gt;&lt;/div&gt;&lt;div&gt;current:{Steve:10,Dave:15}, investRecords:[]}&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="k_TUhZn_JpIToX4vtfrt-1" vertex="1">
+          <mxGeometry x="200" y="435" width="120" height="90" as="geometry" />
         </mxCell>
         <mxCell id="k_TUhZn_JpIToX4vtfrt-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="k_TUhZn_JpIToX4vtfrt-1" source="k_TUhZn_JpIToX4vtfrt-22" target="k_TUhZn_JpIToX4vtfrt-28" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="k_TUhZn_JpIToX4vtfrt-22" value="&lt;div&gt;Session 1&lt;/div&gt;&lt;div&gt;{ profit:100,&lt;/div&gt;&lt;div&gt;profitPrev:[0],&lt;br&gt;&lt;/div&gt;&lt;div&gt;fromSteve:10,&lt;/div&gt;&lt;div&gt;fromDave: 40}&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="k_TUhZn_JpIToX4vtfrt-1" vertex="1">
-          <mxGeometry x="200" y="545" width="120" height="70" as="geometry" />
+        <mxCell id="k_TUhZn_JpIToX4vtfrt-22" value="&lt;div&gt;Session 1&lt;/div&gt;&lt;div&gt;{ profit:100,&lt;/div&gt;&lt;div&gt;profitPrev:[0],&lt;br&gt;&lt;/div&gt;&lt;div&gt;current:{Steve:10,Dave:40}, investRecords:[]}&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="k_TUhZn_JpIToX4vtfrt-1" vertex="1">
+          <mxGeometry x="200" y="535" width="120" height="90" as="geometry" />
         </mxCell>
         <mxCell id="k_TUhZn_JpIToX4vtfrt-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="k_TUhZn_JpIToX4vtfrt-1" source="k_TUhZn_JpIToX4vtfrt-24" target="k_TUhZn_JpIToX4vtfrt-22" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -173,23 +173,28 @@
         <mxCell id="yJquGkovCwR76NoG3Z3U-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="k_TUhZn_JpIToX4vtfrt-1" source="k_TUhZn_JpIToX4vtfrt-28" target="yJquGkovCwR76NoG3Z3U-8" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="k_TUhZn_JpIToX4vtfrt-28" value="&lt;div&gt;Session 1&lt;/div&gt;&lt;div&gt;{ profit:100, profitPrev:[0],&lt;br&gt;&lt;/div&gt;&lt;div&gt;fromSteve:10,&lt;/div&gt;&lt;div&gt;fromDave: 40}&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="k_TUhZn_JpIToX4vtfrt-1" vertex="1">
-          <mxGeometry x="200" y="635" width="120" height="70" as="geometry" />
+        <mxCell id="k_TUhZn_JpIToX4vtfrt-28" value="&lt;div&gt;Session 1&lt;/div&gt;&lt;div&gt;{ profit:100,&lt;/div&gt;&lt;div&gt;profitPrev:[0],&lt;br&gt;&lt;/div&gt;&lt;div&gt;current:{Steve:10,Dave:40}, investRecords:[]}&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="k_TUhZn_JpIToX4vtfrt-1" vertex="1">
+          <mxGeometry x="200" y="635" width="120" height="95" as="geometry" />
         </mxCell>
         <mxCell id="k_TUhZn_JpIToX4vtfrt-30" value="Claim(session:1, investor:Dave) = 0" style="ellipse;whiteSpace=wrap;html=1;" parent="k_TUhZn_JpIToX4vtfrt-1" vertex="1">
-          <mxGeometry x="390" y="640" width="130" height="60" as="geometry" />
+          <mxGeometry x="390" y="652.5" width="130" height="60" as="geometry" />
         </mxCell>
         <mxCell id="k_TUhZn_JpIToX4vtfrt-35" value="" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=mxgraph.basic.flash" parent="k_TUhZn_JpIToX4vtfrt-1" vertex="1">
-          <mxGeometry x="340" y="635" width="20" height="70" as="geometry" />
+          <mxGeometry x="340" y="647.5" width="20" height="70" as="geometry" />
         </mxCell>
         <mxCell id="k_TUhZn_JpIToX4vtfrt-46" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="k_TUhZn_JpIToX4vtfrt-1" source="k_TUhZn_JpIToX4vtfrt-39" target="k_TUhZn_JpIToX4vtfrt-45" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="k_TUhZn_JpIToX4vtfrt-39" value="&lt;div&gt;Session 2&lt;br&gt;&lt;/div&gt;&lt;div&gt;{ profit:0,&lt;br&gt;&lt;/div&gt;&lt;div&gt;profitPrev:[100],&lt;/div&gt;&lt;div&gt;fromSteve:10,&lt;/div&gt;&lt;div&gt;fromDave: 40}&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="k_TUhZn_JpIToX4vtfrt-1" vertex="1">
-          <mxGeometry x="200" y="780" width="120" height="70" as="geometry" />
+        <mxCell id="XPT8ksmNs8l12v2QQ6D_-68" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="k_TUhZn_JpIToX4vtfrt-1" source="k_TUhZn_JpIToX4vtfrt-39">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="260" y="770" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="k_TUhZn_JpIToX4vtfrt-39" value="&lt;div&gt;Session 2&lt;br&gt;&lt;/div&gt;&lt;div&gt;{ profit:0,&lt;br&gt;&lt;/div&gt;&lt;div&gt;profitPrev:[100],&lt;/div&gt;&lt;div&gt;current:{Steve:10,Dave:40},&lt;/div&gt;&lt;div&gt;investRecords:[{Steve:10,&lt;/div&gt;&lt;div&gt;Dave: 40}]}&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="k_TUhZn_JpIToX4vtfrt-1" vertex="1">
+          <mxGeometry x="180" y="770" width="160" height="90" as="geometry" />
         </mxCell>
         <mxCell id="k_TUhZn_JpIToX4vtfrt-43" value="Claim(session: 2, investor:Dave) = 80" style="ellipse;whiteSpace=wrap;html=1;" parent="k_TUhZn_JpIToX4vtfrt-1" vertex="1">
-          <mxGeometry x="390" y="870" width="130" height="60" as="geometry" />
+          <mxGeometry x="390" y="882.5" width="130" height="60" as="geometry" />
         </mxCell>
         <mxCell id="k_TUhZn_JpIToX4vtfrt-47" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="k_TUhZn_JpIToX4vtfrt-1" source="k_TUhZn_JpIToX4vtfrt-45" target="k_TUhZn_JpIToX4vtfrt-43" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -197,10 +202,10 @@
         <mxCell id="yJquGkovCwR76NoG3Z3U-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="k_TUhZn_JpIToX4vtfrt-1" source="k_TUhZn_JpIToX4vtfrt-45" target="yJquGkovCwR76NoG3Z3U-11" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="k_TUhZn_JpIToX4vtfrt-45" value="&lt;div&gt;Session 2&lt;br&gt;&lt;/div&gt;&lt;div&gt;{ profit:0,&lt;br&gt;&lt;/div&gt;&lt;div&gt;profitPrev:[100],&lt;/div&gt;&lt;div&gt;fromSteve:10,&lt;/div&gt;&lt;div&gt;fromDave: 40}&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="k_TUhZn_JpIToX4vtfrt-1" vertex="1">
-          <mxGeometry x="200" y="865" width="120" height="70" as="geometry" />
+        <mxCell id="k_TUhZn_JpIToX4vtfrt-45" value="&lt;div&gt;Session 2&lt;br&gt;&lt;/div&gt;&lt;div&gt;{ profit:0,&lt;br&gt;&lt;/div&gt;&lt;div&gt;profitPrev:[100],&lt;/div&gt;&lt;div&gt;current:{Steve:10,Dave:40},&lt;/div&gt;&lt;div&gt;investRecords:[{Steve:10,&lt;/div&gt;&lt;div&gt;Dave: 40}]}&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="k_TUhZn_JpIToX4vtfrt-1" vertex="1">
+          <mxGeometry x="180" y="870" width="160" height="85" as="geometry" />
         </mxCell>
-        <mxCell id="k_TUhZn_JpIToX4vtfrt-56" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="k_TUhZn_JpIToX4vtfrt-1" source="k_TUhZn_JpIToX4vtfrt-53" target="k_TUhZn_JpIToX4vtfrt-55" edge="1">
+        <mxCell id="k_TUhZn_JpIToX4vtfrt-56" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="k_TUhZn_JpIToX4vtfrt-1" source="k_TUhZn_JpIToX4vtfrt-53" target="k_TUhZn_JpIToX4vtfrt-55" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="260" y="1090" />
@@ -208,8 +213,8 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="k_TUhZn_JpIToX4vtfrt-53" value="&lt;div&gt;Session 3&lt;br&gt;&lt;/div&gt;&lt;div&gt;{ profit:0,&lt;br&gt;&lt;/div&gt;&lt;div&gt;profitPrev:[0],&lt;/div&gt;&lt;div&gt;fromSteve:10,&lt;/div&gt;&lt;div&gt;fromDave: 40}&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="k_TUhZn_JpIToX4vtfrt-1" vertex="1">
-          <mxGeometry x="200" y="1010" width="120" height="70" as="geometry" />
+        <mxCell id="k_TUhZn_JpIToX4vtfrt-53" value="&lt;div&gt;Session 2&lt;br&gt;&lt;/div&gt;&lt;div&gt;{ profit:0,&lt;br&gt;&lt;/div&gt;&lt;div&gt;profitPrev:[100],&lt;/div&gt;&lt;div&gt;current:{Steve:10,Dave:40},&lt;/div&gt;&lt;div&gt;investRecords:[{Steve:10,&lt;/div&gt;&lt;div&gt;Dave: 40}]}&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="k_TUhZn_JpIToX4vtfrt-1" vertex="1">
+          <mxGeometry x="180" y="1000" width="160" height="80" as="geometry" />
         </mxCell>
         <mxCell id="k_TUhZn_JpIToX4vtfrt-60" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="k_TUhZn_JpIToX4vtfrt-1" source="k_TUhZn_JpIToX4vtfrt-55" target="k_TUhZn_JpIToX4vtfrt-59" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -280,14 +285,14 @@
         <mxCell id="yJquGkovCwR76NoG3Z3U-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="k_TUhZn_JpIToX4vtfrt-1" source="yJquGkovCwR76NoG3Z3U-8" target="k_TUhZn_JpIToX4vtfrt-39" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="yJquGkovCwR76NoG3Z3U-8" value="&lt;div&gt;newSession(2)&lt;/div&gt;&lt;div&gt;profitPrev.shift().&lt;/div&gt;&lt;div&gt;push(profit)&lt;br&gt;&lt;/div&gt;" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;" parent="k_TUhZn_JpIToX4vtfrt-1" vertex="1">
-          <mxGeometry x="200" y="720" width="120" height="40" as="geometry" />
+        <mxCell id="yJquGkovCwR76NoG3Z3U-8" value="&lt;div&gt;newSession(2)&lt;/div&gt;" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;" parent="k_TUhZn_JpIToX4vtfrt-1" vertex="1">
+          <mxGeometry x="200" y="740" width="120" height="20" as="geometry" />
         </mxCell>
         <mxCell id="yJquGkovCwR76NoG3Z3U-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="k_TUhZn_JpIToX4vtfrt-1" source="yJquGkovCwR76NoG3Z3U-11" target="k_TUhZn_JpIToX4vtfrt-53" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="yJquGkovCwR76NoG3Z3U-11" value="&lt;div&gt;newSession(3)&lt;/div&gt;&lt;div&gt;profitPrev.shift().&lt;/div&gt;&lt;div&gt;push(profit)&lt;br&gt;&lt;/div&gt;" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;" parent="k_TUhZn_JpIToX4vtfrt-1" vertex="1">
-          <mxGeometry x="200" y="950" width="120" height="40" as="geometry" />
+        <mxCell id="yJquGkovCwR76NoG3Z3U-11" value="&lt;div&gt;newSession(3)&lt;/div&gt;" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;" parent="k_TUhZn_JpIToX4vtfrt-1" vertex="1">
+          <mxGeometry x="200" y="970" width="120" height="20" as="geometry" />
         </mxCell>
         <mxCell id="yJquGkovCwR76NoG3Z3U-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="k_TUhZn_JpIToX4vtfrt-1" source="yJquGkovCwR76NoG3Z3U-14" target="yJquGkovCwR76NoG3Z3U-3" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -304,11 +309,216 @@
         <mxCell id="CW_NQTFAMHuf74rHYHPA-1" value="&lt;div&gt;newSession(1)&lt;/div&gt;" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;" parent="k_TUhZn_JpIToX4vtfrt-1" vertex="1">
           <mxGeometry x="200" y="20" width="120" height="40" as="geometry" />
         </mxCell>
+        <mxCell id="XPT8ksmNs8l12v2QQ6D_-0" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=20;" edge="1" parent="k_TUhZn_JpIToX4vtfrt-1" source="XPT8ksmNs8l12v2QQ6D_-1" target="XPT8ksmNs8l12v2QQ6D_-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XPT8ksmNs8l12v2QQ6D_-1" value="&lt;div&gt;Session 1&lt;/div&gt;&lt;div&gt;{ profit:0,&lt;/div&gt;&lt;div&gt;profitPrev:[0],&lt;br&gt;&lt;/div&gt;&lt;div&gt;current:{Steve:10}, investRecords:[]}&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="k_TUhZn_JpIToX4vtfrt-1">
+          <mxGeometry x="1140" y="50" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="XPT8ksmNs8l12v2QQ6D_-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="k_TUhZn_JpIToX4vtfrt-1" source="XPT8ksmNs8l12v2QQ6D_-3" target="XPT8ksmNs8l12v2QQ6D_-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XPT8ksmNs8l12v2QQ6D_-3" value="Invest(amount:10, session:1, investor:Steve)" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="k_TUhZn_JpIToX4vtfrt-1">
+          <mxGeometry x="940" y="60" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="XPT8ksmNs8l12v2QQ6D_-4" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontSize=20;" edge="1" parent="k_TUhZn_JpIToX4vtfrt-1" source="XPT8ksmNs8l12v2QQ6D_-5" target="XPT8ksmNs8l12v2QQ6D_-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XPT8ksmNs8l12v2QQ6D_-5" value="addProfit(20)" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="k_TUhZn_JpIToX4vtfrt-1">
+          <mxGeometry x="1240" y="130" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="XPT8ksmNs8l12v2QQ6D_-6" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=20;" edge="1" parent="k_TUhZn_JpIToX4vtfrt-1" source="XPT8ksmNs8l12v2QQ6D_-7" target="XPT8ksmNs8l12v2QQ6D_-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XPT8ksmNs8l12v2QQ6D_-7" value="&lt;div&gt;Session 1&lt;/div&gt;&lt;div&gt;{ profit:20,&lt;/div&gt;&lt;div&gt;profitPrev:[0],&lt;br&gt;&lt;/div&gt;&lt;div&gt;current:{Steve:10,Dave:15}, investRecords:[]}&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="k_TUhZn_JpIToX4vtfrt-1">
+          <mxGeometry x="1140" y="260" width="120" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="XPT8ksmNs8l12v2QQ6D_-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="k_TUhZn_JpIToX4vtfrt-1" source="XPT8ksmNs8l12v2QQ6D_-9" target="XPT8ksmNs8l12v2QQ6D_-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XPT8ksmNs8l12v2QQ6D_-9" value="Invest(amount:15, session:1, investor:Dave)" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="k_TUhZn_JpIToX4vtfrt-1">
+          <mxGeometry x="940" y="275" width="130" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="XPT8ksmNs8l12v2QQ6D_-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="k_TUhZn_JpIToX4vtfrt-1" source="XPT8ksmNs8l12v2QQ6D_-11" target="XPT8ksmNs8l12v2QQ6D_-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XPT8ksmNs8l12v2QQ6D_-11" value="&lt;div&gt;Session 1&lt;/div&gt;&lt;div&gt;{ profit:20,&lt;/div&gt;&lt;div&gt;profitPrev:[0],&lt;br&gt;&lt;/div&gt;&lt;div&gt;current:{Steve:10}, investRecords:[]}&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="k_TUhZn_JpIToX4vtfrt-1">
+          <mxGeometry x="1140" y="160" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="XPT8ksmNs8l12v2QQ6D_-12" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontSize=20;" edge="1" parent="k_TUhZn_JpIToX4vtfrt-1" source="XPT8ksmNs8l12v2QQ6D_-13" target="XPT8ksmNs8l12v2QQ6D_-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XPT8ksmNs8l12v2QQ6D_-13" value="addProfit(30)" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="k_TUhZn_JpIToX4vtfrt-1">
+          <mxGeometry x="1245" y="350" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="XPT8ksmNs8l12v2QQ6D_-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="k_TUhZn_JpIToX4vtfrt-1" source="XPT8ksmNs8l12v2QQ6D_-15" target="XPT8ksmNs8l12v2QQ6D_-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XPT8ksmNs8l12v2QQ6D_-15" value="&lt;div&gt;Session 1&lt;/div&gt;&lt;div&gt;{ profit:50,&lt;/div&gt;&lt;div&gt;profitPrev:[0],&lt;br&gt;&lt;/div&gt;&lt;div&gt;current:{Steve:10,Dave:15}, investRecords:[]}&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="k_TUhZn_JpIToX4vtfrt-1">
+          <mxGeometry x="1140" y="380" width="120" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="XPT8ksmNs8l12v2QQ6D_-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="k_TUhZn_JpIToX4vtfrt-1" source="XPT8ksmNs8l12v2QQ6D_-17" target="XPT8ksmNs8l12v2QQ6D_-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XPT8ksmNs8l12v2QQ6D_-17" value="&lt;div&gt;Session 1&lt;/div&gt;&lt;div&gt;{ profit:50,&lt;/div&gt;&lt;div&gt;profitPrev:[0],&lt;br&gt;&lt;/div&gt;&lt;div&gt;current:{Steve:10,Dave:40}, investRecords:[]}&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="k_TUhZn_JpIToX4vtfrt-1">
+          <mxGeometry x="1140" y="490" width="120" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="XPT8ksmNs8l12v2QQ6D_-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="k_TUhZn_JpIToX4vtfrt-1" source="XPT8ksmNs8l12v2QQ6D_-19" target="XPT8ksmNs8l12v2QQ6D_-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XPT8ksmNs8l12v2QQ6D_-19" value="Invest(amount:25, session:1, investor:Dave)" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="k_TUhZn_JpIToX4vtfrt-1">
+          <mxGeometry x="940" y="505" width="130" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="XPT8ksmNs8l12v2QQ6D_-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="k_TUhZn_JpIToX4vtfrt-1" source="XPT8ksmNs8l12v2QQ6D_-22" target="XPT8ksmNs8l12v2QQ6D_-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XPT8ksmNs8l12v2QQ6D_-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="k_TUhZn_JpIToX4vtfrt-1" source="XPT8ksmNs8l12v2QQ6D_-22" target="XPT8ksmNs8l12v2QQ6D_-45">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XPT8ksmNs8l12v2QQ6D_-22" value="&lt;div&gt;Session 1&lt;/div&gt;&lt;div&gt;{ profit:50,&lt;/div&gt;&lt;div&gt;profitPrev:[0],&lt;br&gt;&lt;/div&gt;&lt;div&gt;current:{Steve:10,Dave:40}, investRecords:[]}&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="k_TUhZn_JpIToX4vtfrt-1">
+          <mxGeometry x="1140" y="590" width="120" height="85" as="geometry" />
+        </mxCell>
+        <mxCell id="XPT8ksmNs8l12v2QQ6D_-23" value="Claim(session:1, investor:Dave) = 0" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="k_TUhZn_JpIToX4vtfrt-1">
+          <mxGeometry x="1330" y="602.5" width="130" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="XPT8ksmNs8l12v2QQ6D_-24" value="" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=mxgraph.basic.flash" vertex="1" parent="k_TUhZn_JpIToX4vtfrt-1">
+          <mxGeometry x="1280" y="597.5" width="20" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="XPT8ksmNs8l12v2QQ6D_-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="k_TUhZn_JpIToX4vtfrt-1" source="XPT8ksmNs8l12v2QQ6D_-27" target="XPT8ksmNs8l12v2QQ6D_-28">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XPT8ksmNs8l12v2QQ6D_-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="k_TUhZn_JpIToX4vtfrt-1" source="XPT8ksmNs8l12v2QQ6D_-27" target="XPT8ksmNs8l12v2QQ6D_-54">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XPT8ksmNs8l12v2QQ6D_-27" value="&lt;div&gt;Session 2&lt;br&gt;&lt;/div&gt;&lt;div&gt;{ profit:0,&lt;br&gt;&lt;/div&gt;&lt;div&gt;profitPrev:[50],&lt;/div&gt;&lt;div&gt;current:{Steve:10,Dave:40},&lt;/div&gt;&lt;div&gt;investRecords:[{Steve:10,&lt;/div&gt;&lt;div&gt;Dave: 40}]}&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="k_TUhZn_JpIToX4vtfrt-1">
+          <mxGeometry x="1140" y="720" width="120" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="XPT8ksmNs8l12v2QQ6D_-28" value="Claim(session: 2, investor:Dave) = 40" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="k_TUhZn_JpIToX4vtfrt-1">
+          <mxGeometry x="1330" y="750" width="130" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="XPT8ksmNs8l12v2QQ6D_-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=20;" edge="1" parent="k_TUhZn_JpIToX4vtfrt-1" target="XPT8ksmNs8l12v2QQ6D_-54">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1200" y="865" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XPT8ksmNs8l12v2QQ6D_-30" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="k_TUhZn_JpIToX4vtfrt-1" source="XPT8ksmNs8l12v2QQ6D_-31" target="XPT8ksmNs8l12v2QQ6D_-58">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1385" y="1010" />
+              <mxPoint x="1385" y="1060" />
+              <mxPoint x="1560" y="1060" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XPT8ksmNs8l12v2QQ6D_-31" value="&lt;div&gt;Session 3&lt;br&gt;&lt;/div&gt;&lt;div&gt;{ profit:0,&lt;br&gt;&lt;/div&gt;&lt;div&gt;profitPrev:[50, 150],&lt;/div&gt;&lt;div&gt;current:{Steve:10,Dave:40},&lt;/div&gt;&lt;div&gt;investRecords:[{Steve:10,&lt;/div&gt;&lt;div&gt;Dave: 40}, {Steve:10, Dave:40}]}&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="k_TUhZn_JpIToX4vtfrt-1">
+          <mxGeometry x="1130" y="960" width="150" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="XPT8ksmNs8l12v2QQ6D_-32" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=20;" edge="1" parent="k_TUhZn_JpIToX4vtfrt-1" source="XPT8ksmNs8l12v2QQ6D_-33" target="XPT8ksmNs8l12v2QQ6D_-58">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1470" y="940" />
+              <mxPoint x="1470" y="990" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XPT8ksmNs8l12v2QQ6D_-33" value="Invest(amount:20, session:3, investor:Steve)" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="k_TUhZn_JpIToX4vtfrt-1">
+          <mxGeometry x="1340" y="910" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="XPT8ksmNs8l12v2QQ6D_-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="k_TUhZn_JpIToX4vtfrt-1" source="XPT8ksmNs8l12v2QQ6D_-36" target="XPT8ksmNs8l12v2QQ6D_-37">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XPT8ksmNs8l12v2QQ6D_-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="k_TUhZn_JpIToX4vtfrt-1" source="XPT8ksmNs8l12v2QQ6D_-36" target="XPT8ksmNs8l12v2QQ6D_-39">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XPT8ksmNs8l12v2QQ6D_-36" value="&lt;div&gt;Session 3&lt;br&gt;&lt;/div&gt;&lt;div&gt;{ profit:0,&lt;br&gt;&lt;/div&gt;&lt;div&gt;profitPrev:[50, 150],&lt;/div&gt;&lt;div&gt;current:{Steve:30,Dave:40},&lt;/div&gt;&lt;div&gt;investRecords:[{Steve:10,&lt;/div&gt;&lt;div&gt;Dave: 40}, {Steve:10, Dave:40}]}&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="k_TUhZn_JpIToX4vtfrt-1">
+          <mxGeometry x="1490" y="808" width="140" height="111" as="geometry" />
+        </mxCell>
+        <mxCell id="XPT8ksmNs8l12v2QQ6D_-37" value="&lt;div&gt;Claim(session:3, investor:Steve)= [10, 30]&lt;br&gt;&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="k_TUhZn_JpIToX4vtfrt-1">
+          <mxGeometry x="1660" y="834" width="130" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="XPT8ksmNs8l12v2QQ6D_-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="k_TUhZn_JpIToX4vtfrt-1" source="XPT8ksmNs8l12v2QQ6D_-39" target="XPT8ksmNs8l12v2QQ6D_-41">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XPT8ksmNs8l12v2QQ6D_-39" value="addProfit(35)" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="k_TUhZn_JpIToX4vtfrt-1">
+          <mxGeometry x="1500" y="750" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="XPT8ksmNs8l12v2QQ6D_-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="k_TUhZn_JpIToX4vtfrt-1" source="XPT8ksmNs8l12v2QQ6D_-41" target="XPT8ksmNs8l12v2QQ6D_-49">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XPT8ksmNs8l12v2QQ6D_-41" value="&lt;div&gt;Session 3&lt;br&gt;&lt;/div&gt;&lt;div&gt;{ profit:35,&lt;br&gt;&lt;/div&gt;&lt;div&gt;profitPrev:[50, 150],&lt;/div&gt;&lt;div&gt;current:{Steve:30,Dave:40},&lt;/div&gt;&lt;div&gt;investRecords:[{Steve:10,&lt;/div&gt;&lt;div&gt;Dave: 40}, {Steve:10, Dave:40}]}&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="k_TUhZn_JpIToX4vtfrt-1">
+          <mxGeometry x="1490" y="620" width="140" height="118" as="geometry" />
+        </mxCell>
+        <mxCell id="XPT8ksmNs8l12v2QQ6D_-42" value="Claim(session:4, investor:Steve)=[30,15]" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="k_TUhZn_JpIToX4vtfrt-1">
+          <mxGeometry x="1640" y="250" width="130" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="XPT8ksmNs8l12v2QQ6D_-43" value="Claim(session: 4, investor:Dave) = [120, 20]" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="k_TUhZn_JpIToX4vtfrt-1">
+          <mxGeometry x="1640" y="160" width="130" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="XPT8ksmNs8l12v2QQ6D_-44" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="k_TUhZn_JpIToX4vtfrt-1" source="XPT8ksmNs8l12v2QQ6D_-45" target="XPT8ksmNs8l12v2QQ6D_-27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XPT8ksmNs8l12v2QQ6D_-45" value="&lt;div&gt;newSession(2)&lt;/div&gt;" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="k_TUhZn_JpIToX4vtfrt-1">
+          <mxGeometry x="1140" y="690" width="120" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="XPT8ksmNs8l12v2QQ6D_-46" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="k_TUhZn_JpIToX4vtfrt-1" source="XPT8ksmNs8l12v2QQ6D_-47" target="XPT8ksmNs8l12v2QQ6D_-31">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XPT8ksmNs8l12v2QQ6D_-47" value="&lt;div&gt;newSession(3)&lt;/div&gt;" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="k_TUhZn_JpIToX4vtfrt-1">
+          <mxGeometry x="985" y="1000" width="120" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="XPT8ksmNs8l12v2QQ6D_-48" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fontSize=20;" edge="1" parent="k_TUhZn_JpIToX4vtfrt-1" source="XPT8ksmNs8l12v2QQ6D_-49" target="XPT8ksmNs8l12v2QQ6D_-60">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XPT8ksmNs8l12v2QQ6D_-49" value="&lt;div&gt;newSession(4)&lt;/div&gt;" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="k_TUhZn_JpIToX4vtfrt-1">
+          <mxGeometry x="1500" y="590" width="120" height="16" as="geometry" />
+        </mxCell>
+        <mxCell id="XPT8ksmNs8l12v2QQ6D_-50" value="maxClaimableSession = 2" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;" vertex="1" parent="k_TUhZn_JpIToX4vtfrt-1">
+          <mxGeometry x="1260" y="-10" width="305" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="XPT8ksmNs8l12v2QQ6D_-51" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=20;" edge="1" parent="k_TUhZn_JpIToX4vtfrt-1" source="XPT8ksmNs8l12v2QQ6D_-52" target="XPT8ksmNs8l12v2QQ6D_-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XPT8ksmNs8l12v2QQ6D_-52" value="&lt;div&gt;newSession(1)&lt;/div&gt;" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="k_TUhZn_JpIToX4vtfrt-1">
+          <mxGeometry x="1140" y="-10" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="XPT8ksmNs8l12v2QQ6D_-53" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontSize=20;" edge="1" parent="k_TUhZn_JpIToX4vtfrt-1" source="XPT8ksmNs8l12v2QQ6D_-54" target="XPT8ksmNs8l12v2QQ6D_-56">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XPT8ksmNs8l12v2QQ6D_-54" value="addProfit(150)" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="k_TUhZn_JpIToX4vtfrt-1">
+          <mxGeometry x="1140" y="880" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="XPT8ksmNs8l12v2QQ6D_-55" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="k_TUhZn_JpIToX4vtfrt-1" source="XPT8ksmNs8l12v2QQ6D_-56" target="XPT8ksmNs8l12v2QQ6D_-47">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XPT8ksmNs8l12v2QQ6D_-56" value="&lt;div&gt;Session 2&lt;br&gt;&lt;/div&gt;&lt;div&gt;{ profit:150,&lt;br&gt;&lt;/div&gt;&lt;div&gt;profitPrev:[50],&lt;/div&gt;&lt;div&gt;current:{Steve:10,Dave:40},&lt;/div&gt;&lt;div&gt;investRecords:[{Steve:10,&lt;/div&gt;&lt;div&gt;Dave: 40}]}&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="k_TUhZn_JpIToX4vtfrt-1">
+          <mxGeometry x="970" y="835" width="150" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="XPT8ksmNs8l12v2QQ6D_-57" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="k_TUhZn_JpIToX4vtfrt-1" source="XPT8ksmNs8l12v2QQ6D_-58" target="XPT8ksmNs8l12v2QQ6D_-36">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XPT8ksmNs8l12v2QQ6D_-58" value="&lt;div&gt;Session 3&lt;br&gt;&lt;/div&gt;&lt;div&gt;{ profit:0,&lt;br&gt;&lt;/div&gt;&lt;div&gt;profitPrev:[50, 150],&lt;/div&gt;&lt;div&gt;current:{Steve:30,Dave:40},&lt;/div&gt;&lt;div&gt;investRecords:[{Steve:10,&lt;/div&gt;&lt;div&gt;Dave: 40}, {Steve:10, Dave:40}]}&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="k_TUhZn_JpIToX4vtfrt-1">
+          <mxGeometry x="1490" y="930" width="140" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="XPT8ksmNs8l12v2QQ6D_-59" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fontSize=20;" edge="1" parent="k_TUhZn_JpIToX4vtfrt-1" source="XPT8ksmNs8l12v2QQ6D_-60" target="XPT8ksmNs8l12v2QQ6D_-63">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XPT8ksmNs8l12v2QQ6D_-60" value="&lt;div&gt;Session 4&lt;br&gt;&lt;/div&gt;&lt;div&gt;{ profit:0,&lt;br&gt;&lt;/div&gt;&lt;div&gt;profitPrev:[150, 35],&lt;/div&gt;&lt;div&gt;current:{Steve:30,Dave:40},&lt;/div&gt;&lt;div&gt;investRecords:[{Steve:10,&lt;/div&gt;&lt;div&gt;Dave: 40}, {Steve:30, Dave:40}]}&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="k_TUhZn_JpIToX4vtfrt-1">
+          <mxGeometry x="1490" y="460" width="140" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="XPT8ksmNs8l12v2QQ6D_-61" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="k_TUhZn_JpIToX4vtfrt-1" source="XPT8ksmNs8l12v2QQ6D_-63" target="XPT8ksmNs8l12v2QQ6D_-42">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XPT8ksmNs8l12v2QQ6D_-62" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="k_TUhZn_JpIToX4vtfrt-1" source="XPT8ksmNs8l12v2QQ6D_-63" target="XPT8ksmNs8l12v2QQ6D_-43">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XPT8ksmNs8l12v2QQ6D_-63" value="&lt;div&gt;Session 4&lt;br&gt;&lt;/div&gt;&lt;div&gt;{ profit:0,&lt;br&gt;&lt;/div&gt;&lt;div&gt;profitPrev:[150, 35],&lt;/div&gt;&lt;div&gt;current:{Steve:30,Dave:40},&lt;/div&gt;&lt;div&gt;investRecords:[{Steve:10,&lt;/div&gt;&lt;div&gt;Dave: 40}, {Steve:30, Dave:40}]}&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="k_TUhZn_JpIToX4vtfrt-1">
+          <mxGeometry x="1490" y="310" width="140" height="120" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
   <diagram id="C_Lap4P_rimV70JenlwI" name="Scenario2_MaxClaimableSession=2">
-    <mxGraphModel dx="946" dy="612" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1330" dy="822" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="iTom-UJpVvmiZ_75oO6J-0" />
         <mxCell id="iTom-UJpVvmiZ_75oO6J-1" parent="iTom-UJpVvmiZ_75oO6J-0" />
