@@ -4,7 +4,7 @@
 
 ## The instructions for running this app locally:
 
-Please ensure you have [Node.js] (http://nodejs.org/)
+Please ensure you have [Node.js](http://nodejs.org/)
 
 installed in your dev. environment.
 
