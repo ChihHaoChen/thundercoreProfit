@@ -1,5 +1,3 @@
-# README.md
-
 ## This repository aims to fulfill the assignment by ThunderCore
 
 ## The instructions for running this app locally:
