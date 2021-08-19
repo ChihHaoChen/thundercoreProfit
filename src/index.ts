@@ -1,9 +1,9 @@
-import { test1 } from './test1'
-import { test2 } from './test2'
-import { test3 } from './test3'
+import { test1 as scenario1 } from './test1'
+import { test2 as scenario2 } from './test2'
+import { test3 as scenario3 } from './test3'
 
-// test1()
+scenario1()
 
-// test2()
+// scenario2()
 
-test3()
+// scenario3()
