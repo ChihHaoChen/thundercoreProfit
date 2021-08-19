@@ -29,16 +29,11 @@ export function test3():void {
   console.log('After Dave second investment of $25 @ session 1, ', profitSystem)
 
 
-  // Dave claims
-  const claimedAmount = profitSystem.responseToClaim(investorDave)
-  console.log('Dave invalid claim @ session 1', claimedAmount)
-  console.log('After Dave invalid claim @ session 1', profitSystem)
-
   // Proceed to session 2
   profitSystem.newSession()
   console.log('After moving to session 2', profitSystem)
 
-  // Dave withdraw 20 by addInvestment(-20)
+  // Dave withdraws 20 by addInvestment(-20)
   profitSystem._investmentCurrentAmount = {...profitSystem._investmentCurrentAmount, ...investorDave.addInvestment(-20)}
   console.log('After Dave withdraws $20 @ session 2, ', profitSystem)
 
@@ -57,7 +52,6 @@ export function test3():void {
   console.log('Proceeding to session 3', profitSystem)
 
   // Now Steve invests
-  // Object.assign(profitSystem._investItem, investorSteve.addInvestment(20))
   profitSystem._investmentCurrentAmount = {...profitSystem._investmentCurrentAmount, ...investorSteve.addInvestment(20)}
   console.log('After Steve investment of $20', profitSystem)
 
