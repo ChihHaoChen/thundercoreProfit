@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-08-19T07:59:03.144Z" agent="5.0 (Macintosh)" etag="iib_XLCAiSw_YYEBz3C1" version="14.9.7" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2021-08-19T08:00:25.004Z" agent="5.0 (Macintosh)" etag="7XhdkmZdj6DASIEz3B12" version="14.9.7" type="github" pages="4">
   <diagram id="VXqrS5NhDdbnTz_sFyGP" name="Page-1">
     <mxGraphModel dx="946" dy="612" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -307,7 +307,7 @@
       </root>
     </mxGraphModel>
   </diagram>
-  <diagram id="C_Lap4P_rimV70JenlwI" name="Test_MaxClaimableSession=2">
+  <diagram id="C_Lap4P_rimV70JenlwI" name="Scenario2_MaxClaimableSession=2">
     <mxGraphModel dx="946" dy="612" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="iTom-UJpVvmiZ_75oO6J-0" />
